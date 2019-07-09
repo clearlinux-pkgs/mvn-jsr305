@@ -4,14 +4,16 @@
 #
 Name     : mvn-jsr305
 Version  : 2.0.1
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 Source0  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 Source1  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
 Source2  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
 Source3  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
-Source4  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-Source5  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+Source4  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar
+Source5  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
+Source6  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+Source7  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -45,11 +47,17 @@ cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbug
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/2.0.1
 cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/2.0.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.0
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.0
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.0
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.0
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2
 
 
 %files
@@ -61,5 +69,7 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/com/google/code/findbug
 /usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
 /usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 /usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar
+/usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom
 /usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
 /usr/share/java/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
