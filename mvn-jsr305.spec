@@ -4,7 +4,7 @@
 #
 Name     : mvn-jsr305
 Version  : 2.0.1
-Release  : 4
+Release  : 5
 URL      : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 Source0  : https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 Source1  : https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.2/jsr305-2.0.2.jar
